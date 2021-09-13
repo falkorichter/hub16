@@ -192,6 +192,29 @@
                         ]
                     },
                     {
+                        "description": "m to Terminal.app",
+                        "conditions": [
+                            {
+                                "identifiers": [
+                                    {
+                                        "product_id": 18448,
+                                        "vendor_id": 27242
+                                    }
+                                ],
+                                "type": "device_if"
+                            }
+                        ],
+                        "from": {
+                            "key_code": "m"
+                        },
+                        "to": [
+                            {
+                                "shell_command": "open '/System/Applications/Utilities/Terminal.app'"
+                            }
+                        ],
+                        "type": "basic"
+                    },
+                    {
                         "description": "manual right poti to hangouts",
                         "manipulators": [
                             {
