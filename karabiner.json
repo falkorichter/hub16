@@ -199,8 +199,10 @@
                                 {
                                     "identifiers": [
                                         {
-                                            "product_id": 18448,
-                                            "vendor_id": 27242
+                                            "is_keyboard": true,
+                                            "is_pointing_device": false,
+                                            "product_id": 36723,
+                                            "vendor_id": 65261
                                         }
                                     ],
                                     "type": "device_if"
@@ -226,8 +228,10 @@
                                     {
                                         "identifiers": [
                                             {
-                                                "product_id": 18448,
-                                                "vendor_id": 27242
+                                                "is_keyboard": true,
+                                                "is_pointing_device": false,
+                                                "product_id": 36723,
+                                                "vendor_id": 65261
                                             }
                                         ],
                                         "type": "device_if"
